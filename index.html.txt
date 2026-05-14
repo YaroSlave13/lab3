@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #f12711, #f5af19);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+        .badge {
+            display: inline-block;
+            padding: 8px 20px;
+            margin: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            font-size: 0.9em;
+        }
+        .info {
+            margin-top: 30px;
+            font-size: 0.85em;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Лабораторная работа №3</h1>
+        <p>Автоматический деплой сайта с помощью GitHub Actions</p>
+        <div>
+            <span class="badge">Docker</span>
+            <span class="badge">GitHub Actions</span>
+            <span class="badge">CI/CD</span>
+        </div>
+        <p class="info">
+            Деплой выполнен автоматически через peaceiris/actions-gh-pages<br>
+            Студент: [Твоё Фамилия И.О.]<br>
+            Группа: [Твоя группа]
+        </p>
+    </div>
+</body>
+</html>
